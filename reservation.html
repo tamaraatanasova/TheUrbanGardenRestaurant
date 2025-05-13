@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reservation</title>
+    <script
+      src="https://kit.fontawesome.com/56e750abfb.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="./index.html"
+          ><i class="fa-solid fa-arrow-left"></i> Back link</a
+        >
+      </nav>
+    </header>
+    <main>
+      <section align="center">
+        <h1>Contact US/Make a Reservation</h1>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" /><br /><br />
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" /><br /><br />
+          <label for="phone">Phone:</label>
+          <input type="text" name="phone" id="phone" /><br /><br />
+          <label for="date">Date:</label>
+          <input type="date" name="date" id="date" /><br /><br />
+          <label for="time">Time:</label>
+          <input type="time" name="time" id="time" /><br /><br />
+          <label for="num_ppl">Number of People:</label>
+          <input type="number" name="num_ppl" id="num_ppl" /><br /><br />
+          <label>Seating Preference: </label>
+          <input
+            type="radio"
+            name="seting"
+            id="indoor"
+            value="indoor"
+            checked
+          />
+          <label for="indoor">Indoor</label>
+          <input type="radio" name="seting" id="outdoor" value="outdoor" />
+          <label for="outdoor">Outdoor</label><br /><br />
+          <label for="specialRequests"> Special Requests</label>
+          <input
+            type="checkbox"
+            name="special"
+            id="Vegetarian"
+            value="Vegetarian"
+          />
+          <label for="Vegetarian">Vegetarian Options</label>
+          <input
+            type="checkbox"
+            name="special"
+            id="allergyFriendly"
+            value="allergyFriendly"
+          />
+          <label for="allergyFriendly">Allergy Friendly</label>
+          <input
+            type="checkbox"
+            name="special"
+            id="window_seat"
+            value="window_seat"
+          />
+          <label for="window_seat">Window Seat</label>
+          <input
+            type="checkbox"
+            name="special"
+            id="nighchair"
+            value="nighchair"
+          />
+          <label for="nighchair">Need a Nighchair</label>
+          <input
+            type="checkbox"
+            name="special"
+            id="special_occasions"
+            value="special_occasions"
+          />
+          <label for="special_occasions"
+            >Celebrating and special occasions</label
+          ><br /><br />
+
+          <label for="notes">Additional notes:</label><br />
+          <textarea name="notes" id="notes" rows="2" cols="20"></textarea
+          ><br /><br />
+          <button type="submit">Submit Reservation</button>
+        </form>
+      </section>
+    </main>
+    <br /><br /><br />
+    <footer align="center">
+      <p>Follow us on <a href="https://www.instagram.com/">instagram</a>!</p>
+      <p>&copy; 2024 The Urban Garden Restaurant. All rights reserved</p>
+    </footer>
+  </body>
+</html>
